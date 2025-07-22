@@ -1,9 +1,13 @@
 {
-  "name": "transcript-api",
+  "name": "transcriber",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.18.2",
-    "youtube-transcript-api": "^1.4.4"
+    "@johnny-reilly/youtube-transcript": "^2.0.0"
   }
 }
